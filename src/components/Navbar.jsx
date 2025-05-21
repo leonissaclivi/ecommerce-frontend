@@ -15,7 +15,12 @@ const Navbar = () => {
   const handleLogout = async () => {
     try {
       await axios.post(`${backendUrl}/api/auth/logout`, {}, { withCredentials: true });
-      Cookies.remove('token');
+      // Cookies.remove('token');
+      Cookies.remove('token', {
+        path: '/',
+        secure: true,
+        sameSite: 'None',
+      });
       setIsLoggedIn(false);
       setLogoutMessage('User logout successful');
       setTimeout(() => {
