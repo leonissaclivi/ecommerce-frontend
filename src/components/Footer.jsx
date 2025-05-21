@@ -8,7 +8,7 @@ const Footer = () => {
 
                 <div>
                     <img src={assets.logo} className='mb-5 w-32' alt="" />
-                    <p className='w-full md:w-2/3 text-gray-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum sed minima ducimus accusamus alias praesentium, molestias nesciunt blanditiis eligendi cumque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda libero laborum voluptas id ab voluptatibus saepe nesciunt, porro sunt aliquid.</p>
+                    <p className='w-full md:w-2/3 text-gray-600'>Welcome to Everything Store – your one-stop shop for everything you need, all in one place. From the latest gadgets to everyday essentials, we bring you quality products at unbeatable prices. We’re committed to fast shipping, secure payments, and customer-first service. Shop smart, shop easy – only at Everything Store.</p>
                 </div>
 
                 <div>
